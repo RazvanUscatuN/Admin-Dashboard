@@ -71,3 +71,23 @@ body {
   display:grid;
   justify-self: end;
 }
+
+
+
+.header {
+  display:grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 30% 70%;
+}
+
+.search-bar{
+  display:flex;
+}
+
+.user-corner{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 20px;
+  padding-right: 20px;
+  place-items: center;
+}
