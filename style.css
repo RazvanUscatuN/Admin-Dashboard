@@ -5,26 +5,28 @@
 
 body {
   height: 100vh;
+  background-color: #e2e8f0;
 }
 
 .main-container {
   height: 100%;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 5fr;
 }
 
 /* Sidebar Changes */
 
 .sidebar {
-  border: 4px solid blue;
   display: grid;
   grid-template-rows: 10% 40% 30%;
   grid-row: 1 / 3;
+  background-color: #1992d4;
+  color: white;
 }
 
 .logo {
-  border: 2px solid black;
+  
   display: grid;
   gap: 10px;
   grid-template-columns: auto auto;
@@ -71,13 +73,12 @@ body {
   justify-self: end;
 }
 
-
- /* --Header start-- */
+/* --Header start-- */
 .header {
   display: grid;
   grid-template-columns: 70% 30%;
   grid-template-rows: 40% 60%;
-  border: 2px solid black;
+  background-color: white;
 }
 
 .search-bar {
@@ -116,65 +117,77 @@ body {
 }
 
 .user-buttons button {
-  padding: 12px;
+  padding: 1rem;
   border-radius: 30px;
-  background-color: blue;
+  background-color: #1992d4;
   color: white;
+  border: none;
 }
+
 
 /* main project style */
 
-.main-page{
+.main-page {
   display: grid;
   grid-template-columns: 70% 30%;
-  gap:1em;
+  padding: 1.5rem;
+  gap:1rem;
 }
 
-.main-projects{
-  display:grid;
+.main-projects {
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap:1em;
+  gap: 1em;
 }
 
-.project-card{
+.project-card {
   height: 60%;
-  background-color: gray;
+  background-color: white;
   padding: 20px;
+  border-radius: 10px;
 }
 
+/* side paneel style  */
 
-.side-panel{
-  display:grid;
+.side-panel {
+  display: grid;
   grid-template-rows: 40% 40%;
 }
 
-
-
-.announcements-panel{
-  display:grid;
-  grid-template-rows:20% 80%;
+.announcements-panel {
+  display: grid;
+  grid-template-rows: 20% 80%;
 }
 
-
-.announcements-main-panel{
+.announcements-main-panel {
   display: grid;
   justify-items: start;
   padding: 1em;
+  height: 80%;
+  background-color: white;
+  border-radius: 10px;
 }
 
-.trending-panel{
+.trending-panel {
   display: grid;
-  gap:1em;
+  gap: 1em;
 }
 
-.trending-subject{
-  display:grid;
+.trending-main{
+  display: grid;
+  gap:1.5em;
+  background-color: white;
+  border-radius: 10px;
+  padding:10px;
+}
+
+.trending-subject {
+  display: grid;
   grid-template-columns: 30% 70%;
   align-items: center;
 }
 
-.trending-subject img{
+.trending-subject img {
   border-radius: 30px;
 }
-
