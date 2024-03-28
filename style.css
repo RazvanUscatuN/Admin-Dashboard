@@ -6,6 +6,9 @@
 body {
   height: 100vh;
   background-color: #e2e8f0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .main-container {
@@ -36,6 +39,9 @@ body {
 .logo img {
   display: grid;
   justify-self: end;
+  width:45px;
+  height: 45px;
+  
 }
 
 .user-options {
@@ -45,14 +51,18 @@ body {
 
 .option-item {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 30% 70%;
   align-items: center;
   gap: 10px;
 }
 
 .option-item img {
-  display: grid;
+  display: block;
   justify-self: end;
+  width:30px;
+  height: 30px;
+  height: auto;
+  color:white;
 }
 
 .site-options {
@@ -61,9 +71,14 @@ body {
   margin-top: 30px;
 }
 
+.site-options img {
+  width:30px;
+  height: 30px;
+}
+
 .site-option-item {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 30% 70%;
   align-items: center;
   gap: 10px;
 }
@@ -82,7 +97,17 @@ body {
 }
 
 .search-bar {
-  display: flex;
+  display:grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  gap: 1em;
+}
+
+.search-bar img {
+  width:20px;
+  height: 20px;
+  display:grid;
+  justify-self: end;
 }
 
 .user-corner {
@@ -142,10 +167,22 @@ body {
 }
 
 .project-card {
-  height: 60%;
+  
   background-color: white;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
+  display:grid;
+  grid-template-rows: 20% 50% 20%;
+  gap:0.5em;
+}
+
+.project-icons{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: end;
+  align-items: end;
+  
+  
 }
 
 /* side paneel style  */
