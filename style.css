@@ -29,7 +29,6 @@ body {
 }
 
 .logo {
-  
   display: grid;
   gap: 10px;
   grid-template-columns: auto auto;
@@ -39,9 +38,8 @@ body {
 .logo img {
   display: grid;
   justify-self: end;
-  width:45px;
+  width: 45px;
   height: 45px;
-  
 }
 
 .user-options {
@@ -59,10 +57,10 @@ body {
 .option-item img {
   display: block;
   justify-self: end;
-  width:30px;
+  width: 30px;
   height: 30px;
   height: auto;
-  color:white;
+  color: white;
 }
 
 .site-options {
@@ -72,7 +70,7 @@ body {
 }
 
 .site-options img {
-  width:30px;
+  width: 30px;
   height: 30px;
 }
 
@@ -97,16 +95,16 @@ body {
 }
 
 .search-bar {
-  display:grid;
+  display: grid;
   grid-template-columns: 20% 80%;
   align-items: center;
   gap: 1em;
 }
 
 .search-bar img {
-  width:20px;
+  width: 20px;
   height: 20px;
-  display:grid;
+  display: grid;
   justify-self: end;
 }
 
@@ -149,14 +147,13 @@ body {
   border: none;
 }
 
-
 /* main project style */
 
 .main-page {
   display: grid;
   grid-template-columns: 70% 30%;
   padding: 1.5rem;
-  gap:1rem;
+  gap: 1rem;
 }
 
 .main-projects {
@@ -167,22 +164,24 @@ body {
 }
 
 .project-card {
-  
   background-color: white;
   padding: 30px;
   border-radius: 10px;
-  display:grid;
+  display: grid;
   grid-template-rows: 20% 50% 20%;
-  gap:0.5em;
+  gap: 0.5em;
+  border-left: 7px solid #f0b429;
 }
 
-.project-icons{
-  display:grid;
+.project-icons {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: end;
   align-items: end;
-  
-  
+}
+
+.project-icons img{
+  width: 20px;
 }
 
 /* side paneel style  */
@@ -211,12 +210,12 @@ body {
   gap: 1em;
 }
 
-.trending-main{
+.trending-main {
   display: grid;
-  gap:1.5em;
+  gap: 1.5em;
   background-color: white;
   border-radius: 10px;
-  padding:10px;
+  padding: 10px;
 }
 
 .trending-subject {
